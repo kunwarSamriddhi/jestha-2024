@@ -21,7 +21,7 @@ console.log("connected: node > ide.js");
 // function signup(username, password) {
 //     bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
 //         // Store hash in your password DB.
-//      console.log("signup",hash);
+//      console.log(hash);
 //      dbUsers.push({
 //         username,
 //         password:hash
