@@ -13,21 +13,21 @@
 */
 console.log("connected: node > ide.js");
 // document.getElementsByTagName("h1")[0].style.color=Red
-let dbUsers = []
+// let dbUsers = []
 
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
+// const bcrypt = require('bcrypt');
+// const saltRounds = 10;
 
-function signup(username, password) {
-    bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
-        // Store hash in your password DB.
-     console.log("signup",hash);
-     dbUsers.push({
-        username,
-        password:hash
-     })
-    })
-}
-signup("ram", "secret")
-signup("shyam", "secret")
-signup("hari", "secret")
+// function signup(username, password) {
+//     bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
+//         // Store hash in your password DB.
+//      console.log("signup",hash);
+//      dbUsers.push({
+//         username,
+//         password:hash
+//      })
+//     })
+// }
+// signup("ram", "secret")
+// signup("shyam", "secret")
+// signup("hari", "secret")
